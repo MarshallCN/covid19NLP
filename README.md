@@ -11,7 +11,7 @@ The repository includes the following key components:
   - `IEEE_tweets/`: Contains tweets discussing COVID-19.
 
 - **Notebooks**:
-  - `Topic_Modelling.ipynb`: Implements topic modeling to identify prevalent themes in the text data.
+  - `Topic_Modelling.ipynb`: Implements topic modeling using Latent Dirichlet Allocation (LDA) to identify prevalent themes in the text data.
   - `Topic_Sentiment.ipynb`: Analyzes sentiment associated with different topics.
   - `Word_Embedding.ipynb`: Explores word embedding techniques to capture semantic relationships.
 
@@ -29,6 +29,7 @@ The repository includes the following key components:
 
 - **Visualization**: Employing visualization tools to display relationships between topics and the weight of keywords within each topic, facilitating a better understanding of topic distribution and interconnections.
 
+- about LDA topic modelling, find more on: https://towardsdatascience.com/topic-model-based-recommendation-systems-a02d198408b7/, https://medium.com/towards-data-science/create-a-recommendation-system-based-on-time-series-data-using-latent-dirichlet-allocation-2aa141b99e19 and https://github.com/a-agmon/recommend/blob/master/cluster_users_activity.ipynb.
 ### 2. Topic_Sentiment.ipynb
 
 **Objective**: This notebook focuses on analyzing the sentiment associated with each identified topic, evaluating public attitudes toward various themes.
